@@ -1,4 +1,110 @@
 h1 {
-    color:blueviolet;
-    border:0.5rem dotted blueviolet;
+    color: MidnightBlue;
+    border: 0.3rem dotted MidnightBlue;
+    border-style: solid;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    display: none;
+}
+
+body ul li {
+    color: midnightblue;
+}
+
+p {
+    text-decoration: underline rgb(168, 168, 168) 0.1rem;
+    text-indent: 1rem;
+}
+
+p.maiusculo {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1rem;
+    line-height: 2rem;
+    word-spacing: 2rem;
+    color: aliceblue;
+    font: italic small-caps bold 2rem monospace;
+    text-shadow: 0.2rem 0.2rem 0.3rem black, 0 0 1rem cornflowerblue, 0 0 2rem lightblue;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: darkslateblue;
+}
+
+a:hover {
+    color: teal;
+}
+
+footer {
+    clear: both;
+    background: steelblue url(../img/footer.png) no-repeat left bottom;
+    height: 1rem;
+}
+
+div {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: inline;
+    z-index: 2rem;
+    background-color: rgb(186, 219, 186);
+    color: white;
+    border: 0.2rem solid darkgreen;
+    padding: 0.2rem;
+    font-size: 2rem;
+}
+
+h1#page1 {
+    color: midnightblue;
+    border: 0.3rem dotted MidnightBlue;
+    border-style: solid;
+}
+
+img {
+    width: 20rem;
+}
+
+ul {
+    list-style-type: square;
+}
+
+h1.page2 {
+    color: midnightblue;
+    border: 1rem ridge cornflowerblue;
+    border-radius: 0.7rem;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+section img {
+    float: right;
+}
+
+main.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+}
+
+main.flexbox {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+main.flexbox article {
+    background-color: cornflowerblue;
+    margin: 1rem;
+    padding: 2rem;
 }
